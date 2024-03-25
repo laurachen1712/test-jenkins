@@ -1,0 +1,10 @@
+newautomation/march2024/App.class
+newautomation/march2024/pages/BasePage.class
+newautomation/march2024/pages/LoginPageFactory.class
+newautomation/march2024/pages/ProfilePageFactory.class
+newautomation/march2024/pages/ProfilePage.class
+newautomation/march2024/utils/TestUtility.class
+newautomation/march2024/pages/BasePageFactory.class
+newautomation/march2024/pages/CommonPage.class
+newautomation/march2024/pages/LoginPage.class
+newautomation/march2024/utils/DataUtility.class

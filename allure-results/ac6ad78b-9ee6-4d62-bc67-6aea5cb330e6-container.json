@@ -1,0 +1,1 @@
+{"uuid":"ac6ad78b-9ee6-4d62-bc67-6aea5cb330e6","name":"newautomation.march2024.BaseAPITest.login","description":"","start":1710831624240,"stop":1710831625340,"children":["bdcb73a4-b464-4ef9-a6cc-cc2eb1b04b58"],"befores":[{"name":"login","status":"passed","stage":"finished","description":"","start":1710831624240,"stop":1710831625340}]}
