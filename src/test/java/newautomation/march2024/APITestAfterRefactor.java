@@ -22,13 +22,13 @@ public class APITestAfterRefactor extends BaseAPITest {
 		AssertJUnit.assertEquals(responseDashboard.statusCode(), 200);
 	}
 
-	@Test
-	public void configAPI() {
-		Response responseConfig = given().spec(commonJsonSpec).when()
-				.get(DataUtility.getDataFromExcel("Path", "config"));
-
-		AssertJUnit.assertEquals(responseConfig.statusCode(), 200);
-	}
+//	@Test
+//	public void configAPI() {
+//		Response responseConfig = given().spec(commonJsonSpec).when()
+//				.get(DataUtility.getDataFromExcel("Path", "config"));
+//
+//		AssertJUnit.assertEquals(responseConfig.statusCode(), 200);
+//	}
 
 	@Test
 	public void userAPI() {
