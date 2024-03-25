@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-25T08:38:30Z" name="Suite" finished-at="2024-03-25T08:38:50Z" duration-ms="20519">
+  <suite started-at="2024-03-25T13:30:31Z" name="Suite" finished-at="2024-03-25T13:30:52Z" duration-ms="20131">
     <groups>
     </groups>
-    <test started-at="2024-03-25T08:38:30Z" name="Test" finished-at="2024-03-25T08:38:50Z" duration-ms="20519">
+    <test started-at="2024-03-25T13:30:31Z" name="Test" finished-at="2024-03-25T13:30:52Z" duration-ms="20131">
       <class name="newautomation.march2024.APITestAfterRefactor">
-        <test-method is-config="true" signature="login()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@6a9b0a6f]" started-at="2024-03-25T08:38:30Z" name="login" finished-at="2024-03-25T08:38:33Z" duration-ms="3302" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@e93f3d5]" started-at="2024-03-25T13:30:31Z" name="login" finished-at="2024-03-25T13:30:34Z" duration-ms="2924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="configAPI()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@6a9b0a6f]" started-at="2024-03-25T08:38:33Z" name="configAPI" finished-at="2024-03-25T08:38:39Z" duration-ms="6088" status="FAIL">
+        <test-method signature="configAPI()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@e93f3d5]" started-at="2024-03-25T13:30:35Z" name="configAPI" finished-at="2024-03-25T13:30:41Z" duration-ms="6042" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<404> but was:<200>]]>
@@ -24,10 +24,8 @@ at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
 at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
 at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
 at newautomation.march2024.APITestAfterRefactor.configAPI(APITestAfterRefactor.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -58,27 +56,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAPI -->
-        <test-method is-config="true" signature="login()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@6a9b0a6f]" started-at="2024-03-25T08:38:39Z" name="login" finished-at="2024-03-25T08:38:40Z" duration-ms="1103" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@e93f3d5]" started-at="2024-03-25T13:30:41Z" name="login" finished-at="2024-03-25T13:30:42Z" duration-ms="1426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="dashboardAPI()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@6a9b0a6f]" started-at="2024-03-25T08:38:40Z" name="dashboardAPI" finished-at="2024-03-25T08:38:42Z" duration-ms="1147" status="PASS">
+        <test-method signature="dashboardAPI()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@e93f3d5]" started-at="2024-03-25T13:30:42Z" name="dashboardAPI" finished-at="2024-03-25T13:30:43Z" duration-ms="978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardAPI -->
-        <test-method is-config="true" signature="login()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@6a9b0a6f]" started-at="2024-03-25T08:38:42Z" name="login" finished-at="2024-03-25T08:38:43Z" duration-ms="1403" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@e93f3d5]" started-at="2024-03-25T13:30:43Z" name="login" finished-at="2024-03-25T13:30:44Z" duration-ms="1261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="fakerTest()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@6a9b0a6f]" started-at="2024-03-25T08:38:43Z" name="fakerTest" finished-at="2024-03-25T08:38:43Z" duration-ms="109" status="PASS">
+        <test-method signature="fakerTest()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@e93f3d5]" started-at="2024-03-25T13:30:44Z" name="fakerTest" finished-at="2024-03-25T13:30:44Z" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fakerTest -->
-        <test-method is-config="true" signature="login()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@6a9b0a6f]" started-at="2024-03-25T08:38:43Z" name="login" finished-at="2024-03-25T08:38:44Z" duration-ms="1222" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@e93f3d5]" started-at="2024-03-25T13:30:44Z" name="login" finished-at="2024-03-25T13:30:46Z" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="userAPI()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@6a9b0a6f]" started-at="2024-03-25T08:38:44Z" name="userAPI" finished-at="2024-03-25T08:38:50Z" duration-ms="6041" status="PASS">
+        <test-method signature="userAPI()[pri:0, instance:newautomation.march2024.APITestAfterRefactor@e93f3d5]" started-at="2024-03-25T13:30:46Z" name="userAPI" finished-at="2024-03-25T13:30:52Z" duration-ms="6045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userAPI -->

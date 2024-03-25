@@ -1,0 +1,7 @@
+#surefire_0
+#Mon Mar 25 20:30:30 WIB 2024
+basedir=/Users/laurachen/eclipse-workspace/march2024
+env=stage
+localRepository=/Users/laurachen/.m2/repository
+suiteXmlFile=apisuite.xml
+user.dir=/Users/laurachen/eclipse-workspace/march2024
